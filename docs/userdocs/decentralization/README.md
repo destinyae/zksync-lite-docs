@@ -5,7 +5,7 @@
 ## How decentralized is zkSync
 
 Technologically, decentralization is not a binary option but rather a continuum of design choices. The following rough
-scale can be used to asses a level of decentralization of a crypto project with regard to the ownership of assets:
+scale can be used to assess the level of decentralization of a crypto project about the ownership of assets:
 
 1. Centralized custody (fully trusted): Coinbase
 2. Collective custody (trust in the honest majority): sidechains
@@ -15,7 +15,7 @@ scale can be used to asses a level of decentralization of a crypto project with 
 6. Peer-to-peer (trustless<sup>\*</sup>, strong censorship-resistance): Ethereum, Bitcoin
 
 Right now, **zkSync** is at level 4 of this scale. It is fully non-custodial with zero trust assumptions: the **zkSync**
-validator has no power to do anything with user's assets without explicit authorization. Users can always withdraw all
+validator has no power to do anything with the user's assets without explicit authorization. Users can always withdraw all
 of their funds to Ethereum mainnet without any cooperation from validators (even if the latter is completely shut down
 and unresponsive).
 
@@ -38,7 +38,7 @@ Matter Labs is committed to developing **zkSync** into a fully decentralized pro
 
 We outlined the decentralization roadmap in the
 [zkSync vision](https://medium.com/matter-labs/introducing-zk-sync-the-missing-link-to-mass-adoption-of-ethereum-14c9cea83f58)
-document. We intend to achieve it by introducing an independent consensus mechanism for block construction with two
+document. We intend to achieve this by introducing an independent consensus mechanism for block construction with two
 different roles: Validators and Guardians. (Note, that the security of **zkSync** will not be affected by introducing an
 additional consensus mechanism, since the final verification of state transition proofs still will be performed by a
 smart contract on the Ethereum mainnet.)
